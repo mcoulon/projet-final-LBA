@@ -1,0 +1,171 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 72rem;
+    margin: auto;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+/* HEADER */
+
+header {
+    padding: 1.23rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Staatliches', cursive;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li {
+    margin: 0 1rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* NAV */
+
+section nav {
+    padding: 1rem 0 2rem 0;
+}
+
+section nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+section nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* section1 */
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* left div */
+
+.firstDiv {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.firstDiv h2 {
+    margin: 1rem 0;
+}
+
+.firstDiv p {
+    margin: 0.5rem 0;
+}
+
+
+/* Middle div */
+
+.secondDiv {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 1rem; */
+}
+
+.secondDiv {
+    flex: 1;
+}
+
+.secondDiv div div {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.secondDiv div p {
+    margin-bottom: 1rem;
+}
+
+.secondDiv div div h2 {
+    align-self: center;
+}
+
+
+/* Right Div */
+
+.thirdDiv {
+    flex: 1;
+}
+
+.thirdDiv h2 {
+    margin: 1rem 1rem;
+}
+
+.thirdDiv p {
+    margin: 0.5rem 1rem;
+}
+
+
+/* section 2 */
+
+.section2 {
+    background-color: lightgrey;
+}
+
+.section2 div {
+    width: 45%;
+    margin: 0 auto;
+}
+
+
+/* section3 */
+
+.title {
+    margin: 2rem 0;
+}
+
+.section3 {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    margin-bottom: 0.8rem;
+    align-items: center;
+}
+
+.left img {
+    display: block;
+    width: 6%;
+}
+
+.left div {
+    flex: 8;
+}
